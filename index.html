@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Portfolio</title>
+  <style>
+    /* Global Styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #0f2747;
+      color: white;
+      line-height: 1.6;
+    }
+
+    /* Navbar */
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 50px;
+      background-color: #0f2747;
+    }
+    .logo {
+      font-size: 24px;
+      color: #e44a60;
+      font-weight: bold;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+    }
+    nav ul li {
+      margin-left: 30px;
+    }
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-size: 18px;
+      transition: color 0.3s ease;
+    }
+    nav ul li a:hover {
+      color: #e44a60;
+    }
+    .btn-talk {
+      border: 2px solid #e44a60;
+      padding: 8px 20px;
+      border-radius: 20px;
+      color: #e44a60;
+      transition: background-color 0.3s ease;
+    }
+    .btn-talk:hover {
+      background-color: #e44a60;
+      color: white;
+    }
+
+    /* Hero Section */
+    .hero {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 100px 50px;
+    }
+    .hero-text {
+      max-width: 500px;
+    }
+    .hero-text h1 {
+      font-size: 50px;
+      color: #e44a60;
+    }
+    .hero-text p {
+      font-size: 18px;
+      margin-top: 10px;
+      margin-bottom: 20px;
+    }
+    .btn-primary, .btn-secondary {
+      padding: 10px 20px;
+      border: none;
+      border-radius: 20px;
+      font-size: 16px;
+      cursor: pointer;
+      margin-right: 15px;
+    }
+    .btn-primary {
+      background-color: #e44a60;
+      color: white;
+    }
+    .btn-primary:hover {
+      background-color: #d1364f;
+    }
+    .btn-secondary {
+      background-color: #1e3357;
+      color: white;
+    }
+    .btn-secondary:hover {
+      background-color: #243a63;
+    }
+
+    /* Hero Image */
+    .hero-image img {
+      width: 400px;
+      height: auto;
+    }
+
+    /* Social Media Icons */
+    .social-icons {
+      position: absolute;
+      left: 20px;
+      top: 200px;
+      display: flex;
+      flex-direction: column;
+    }
+    .social-icons a {
+      margin-bottom: 20px;
+      color: white;
+      font-size: 20px;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+    .social-icons a:hover {
+      color: #e44a60;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #0f2747;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Header -->
+<header>
+  <div class="logo">&lt;/Aromal&gt;</div>
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Portfolio</a></li>
+      <li><a href="#">Blog</a></li>
+    </ul>
+  </nav>
+  <a href="#" class="btn-talk">Let's Talk</a>
+</header>
+
+<!-- Hero Section -->
+<section class="hero">
+  <div class="hero-text">
+    <p>Hi There</p>
+    <h1>I'm Aromal Anil</h1>
+    <p>I am a Web Developer</p>
+    <a href="#" class="btn-primary">Download CV</a>
+    <a href="#" class="btn-secondary">Contact me</a>
+  </div>
+  <div class="hero-image">
+    <img src="https://via.placeholder.com/400x400" alt="Web Developer">
+  </div>
+</section>
+
+<!-- Social Media Icons -->
+<div class="social-icons">
+  <a href="#"><img src="https://img.icons8.com/fluent-systems-filled/24/ffffff/github.png"/></a>
+  <a href="#"><img src="https://img.icons8.com/fluent-systems-filled/24/ffffff/linkedin.png"/></a>
+  <a href="#"><img src="https://img.icons8.com/fluent-systems-filled/24/ffffff/twitter.png"/></a>
+  <a href="#"><img src="https://img.icons8.com/fluent-systems-filled/24/ffffff/dribbble.png"/></a>
+</div>
+
+<!-- Footer -->
+<footer>
+  &copy; 2024 Aromal Anil. All Rights Reserved.
+</footer>
+
+</body>
+</html>
