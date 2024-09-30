@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Ajay Rawat | About</title>
+  <style>
+    /* Global Styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    /* Navbar */
+    header {
+      background-color: #1e3357;
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      font-size: 28px;
+      color: #ffffff;
+      font-weight: bold;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+    }
+
+    nav ul li {
+      margin-left: 30px;
+    }
+
+    nav ul li a {
+      color: #ffffff;
+      text-decoration: none;
+      font-size: 18px;
+      transition: color 0.3s ease;
+    }
+
+    nav ul li a:hover {
+      color: #e44a60;
+    }
+
+    .btn-talk {
+      border: 2px solid #e44a60;
+      padding: 8px 20px;
+      border-radius: 20px;
+      color: #e44a60;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+
+    .btn-talk:hover {
+      background-color: #e44a60;
+      color: white;
+    }
+
+    /* About Section */
+    .about-section {
+      padding: 60px 100px;
+      background-color: #ffffff;
+      text-align: center;
+    }
+
+    .about-section h1 {
+      font-size: 48px;
+      margin-bottom: 30px;
+      color: #1e3357;
+    }
+
+    .about-content {
+      max-width: 800px;
+      margin: 0 auto;
+      text-align: left;
+      line-height: 1.8;
+      color: #666;
+    }
+
+    .about-content p {
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+
+    /* Skills Section */
+    .skills-section {
+      background-color: #f4f4f4;
+      padding: 60px 100px;
+      text-align: center;
+    }
+
+    .skills-section h2 {
+      font-size: 36px;
+      margin-bottom: 40px;
+      color: #1e3357;
+    }
+
+    .skills {
+      display: flex;
+      justify-content: space-around;
+      gap: 30px;
+    }
+
+    .skill {
+      background-color: #ffffff;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      transition: transform 0.3s ease;
+      flex: 1;
+    }
+
+    .skill:hover {
+      transform: scale(1.05);
+    }
+
+    .skill h3 {
+      font-size: 24px;
+      margin-bottom: 15px;
+      color: #e44a60;
+    }
+
+    .skill p {
+      font-size: 16px;
+      color: #666;
+    }
+
+    /* Footer */
+    footer {
+      background-color: #1e3357;
+      padding: 20px;
+      color: white;
+      text-align: center;
+    }
+
+    footer a {
+      color: #e44a60;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+
+    /* Media Queries */
+    @media (max-width: 768px) {
+      .about-section {
+        padding: 40px 20px;
+      }
+
+      .skills {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .skills-section {
+        padding: 40px 20px;
+      }
+    }
+
+    @media (max-width: 576px) {
+      .about-section h1 {
+        font-size: 36px;
+      }
+
+      .skills-section h2 {
+        font-size: 28px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<!-- Header -->
+<header>
+  <div class="logo">&lt;/AJAY&gt;</div>
+  <nav>
+    <ul>
+      <li><a href="https://xylobit.github.io/portfolio/index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="#">Portfolio</a></li>
+      <li><a href="#">Blog</a></li>
+    </ul>
+  </nav>
+  <a href="contact.html" class="btn-talk">Let's Talk</a>
+</header>
+
+<!-- About Section -->
+<section class="about-section">
+  <h1>About Me</h1>
+  <div class="about-content">
+    <p>Hi, I'm Ajay Rawat, a passionate Flutter Developer with a love for creating beautiful and functional mobile applications. My journey into development started out of curiosity and has blossomed into a fulfilling career.</p>
+    <p>I specialize in crafting mobile applications that not only look stunning but also provide seamless user experiences. Whether it's developing mobile solutions from scratch or enhancing existing ones, I ensure that the apps I build are high-performing and reliable.</p>
+    <p>In addition to mobile development, I enjoy solving complex problems and learning new technologies that keep me at the forefront of the ever-evolving tech industry.</p>
+  </div>
+</section>
+
+<!-- Skills Section -->
+<section class="skills-section">
+  <h2>My Skills</h2>
+  <div class="skills">
+    <div class="skill">
+      <h3>Flutter & Dart</h3>
+      <p>Expertise in Flutter framework for building cross-platform mobile applications.</p>
+    </div>
+    <div class="skill">
+      <h3>UI/UX Design</h3>
+      <p>Proficient in designing intuitive and visually appealing user interfaces.</p>
+    </div>
+    <div class="skill">
+      <h3>App Development</h3>
+      <p>Building high-performance mobile applications with smooth animations and functionality.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer>
+  &copy; 2024 Ajay Rawat. All Rights Reserved. | <a href="#">Privacy Policy</a>
+</footer>
+
+</body>
+</html>

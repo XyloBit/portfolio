@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Ajay Rawat | Home</title>
+  <style>
+    /* Global Styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    /* Navbar */
+    header {
+      background-color: #1e3357;
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      font-size: 28px;
+      color: #ffffff;
+      font-weight: bold;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+    }
+
+    nav ul li {
+      margin-left: 30px;
+    }
+
+    nav ul li a {
+      color: #ffffff;
+      text-decoration: none;
+      font-size: 18px;
+      transition: color 0.3s ease;
+    }
+
+    nav ul li a:hover {
+      color: #e44a60;
+    }
+
+    .btn-talk {
+      border: 2px solid #e44a60;
+      padding: 8px 20px;
+      border-radius: 20px;
+      color: #e44a60;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+
+    .btn-talk:hover {
+      background-color: #e44a60;
+      color: white;
+    }
+
+    /* Hero Section */
+    .hero {
+      background: linear-gradient(to right, rgba(30, 51, 87, 0.9), rgba(30, 51, 87, 0.5)), url('https://raw.githubusercontent.com/XyloBit/portfolio/master/computer.jpg') center/cover no-repeat;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: white;
+    }
+
+    .hero h1 {
+      font-size: 64px;
+      margin-bottom: 20px;
+      color: #e44a60;
+    }
+
+    .hero p {
+      font-size: 24px;
+      margin-bottom: 30px;
+    }
+
+    .hero .btn-primary, .hero .btn-secondary {
+      padding: 10px 20px;
+      border: none;
+      border-radius: 20px;
+      font-size: 16px;
+      cursor: pointer;
+      margin-right: 15px;
+    }
+
+    .hero .btn-primary {
+      background-color: #e44a60;
+      color: white;
+    }
+
+    .hero .btn-primary:hover {
+      background-color: #d1364f;
+    }
+
+    .hero .btn-secondary {
+      background-color: #ffffff;
+      color: #1e3357;
+    }
+
+    .hero .btn-secondary:hover {
+      background-color: #eaeaea;
+    }
+
+    /* Featured Section */
+    .featured {
+      padding: 60px 100px;
+      background-color: #ffffff;
+      text-align: center;
+    }
+
+    .featured h2 {
+      font-size: 36px;
+      margin-bottom: 40px;
+      color: #1e3357;
+    }
+
+    .featured-items {
+      display: flex;
+      justify-content: space-around;
+      gap: 40px;
+    }
+
+    .featured-item {
+      background-color: #f9f9f9;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+
+    .featured-item:hover {
+      transform: scale(1.05);
+    }
+
+    .featured-item img {
+      width: 100px;
+      height: 100px;
+      margin-bottom: 20px;
+    }
+
+    .featured-item h3 {
+      font-size: 24px;
+      margin-bottom: 15px;
+      color: #e44a60;
+    }
+
+    .featured-item p {
+      font-size: 16px;
+      color: #666;
+    }
+
+    /* Footer */
+    footer {
+      background-color: #1e3357;
+      padding: 20px;
+      color: white;
+      text-align: center;
+    }
+
+    footer a {
+      color: #e44a60;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+
+    /* Media Queries */
+    @media (max-width: 768px) {
+      .hero h1 {
+        font-size: 48px;
+      }
+
+      .hero p {
+        font-size: 20px;
+      }
+
+      .featured-items {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .featured {
+        padding: 40px 20px;
+      }
+    }
+
+    @media (max-width: 576px) {
+      .hero h1 {
+        font-size: 36px;
+      }
+
+      .hero p {
+        font-size: 18px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<!-- Header -->
+<header>
+  <div class="logo">&lt;/AJAY&gt;</div>
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Portfolio</a></li>
+      <li><a href="#">Blog</a></li>
+    </ul>
+  </nav>
+  <a href="contact.html" class="btn-talk">Let's Talk</a>
+</header>
+
+<!-- Hero Section -->
+<section class="hero">
+  <div>
+    <h1>Welcome to My World</h1>
+    <p>I'm Ajay Rawat, a Flutter Developer</p>
+    <a href="#" class="btn-primary">Learn More</a>
+    <a href="contact.html" class="btn-secondary">Contact Me</a>
+  </div>
+</section>
+
+<!-- Featured Section -->
+<section class="featured">
+  <h2>What I Offer</h2>
+  <div class="featured-items">
+    <div class="featured-item">
+      <img src="https://img.icons8.com/fluent/100/000000/code.png" alt="Development">
+      <h3>App Development</h3>
+      <p>High-quality mobile app development using Flutter framework.</p>
+    </div>
+    <div class="featured-item">
+      <img src="https://img.icons8.com/fluent/100/000000/design.png" alt="Design">
+      <h3>UI/UX Design</h3>
+      <p>Beautiful and user-friendly interface design for apps and websites.</p>
+    </div>
+    <div class="featured-item">
+      <img src="https://img.icons8.com/fluent/100/000000/analytics.png" alt="Analysis">
+      <h3>Consulting</h3>
+      <p>Expert advice on app development and digital solutions.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer>
+  &copy; 2024 Ajay Rawat. All Rights Reserved. | <a href="#">Privacy Policy</a>
+</footer>
+
+</body>
+</html>
