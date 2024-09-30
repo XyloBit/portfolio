@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Portfolio</title>
+  <title>Ajay Rawat</title>
   <style>
     /* Global Styles */
     * {
@@ -65,7 +65,7 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-      padding: 100px 50px;
+      padding: 50px 150px;
     }
     .hero-text {
       max-width: 500px;
@@ -133,13 +133,60 @@
       padding: 20px;
       background-color: #0f2747;
     }
+
+    /* Media Queries for Responsiveness */
+    @media (max-width: 1200px) {
+      .hero {
+        padding: 50px 100px;
+      }
+    }
+    @media (max-width: 768px) {
+      header {
+        flex-direction: column;
+        padding: 20px;
+      }
+      nav ul {
+        flex-direction: column;
+        margin-top: 10px;
+      }
+      nav ul li {
+        margin-left: 0;
+        margin-bottom: 10px;
+      }
+      .hero {
+        flex-direction: column;
+        text-align: center;
+        padding: 50px 20px;
+      }
+      .hero-image img {
+        width: 300px;
+      }
+      .hero-text h1 {
+        font-size: 40px;
+      }
+    }
+    @media (max-width: 576px) {
+      .hero-text h1 {
+        font-size: 30px;
+      }
+      .hero-image img {
+        width: 250px;
+      }
+      .btn-primary, .btn-secondary {
+        font-size: 14px;
+        padding: 8px 16px;
+      }
+      .social-icons {
+        display: none; /* Hide social icons on very small screens */
+      }
+    }
   </style>
 </head>
 <body>
 
 <!-- Header -->
 <header>
-  <div class="logo">&lt;/Aromal&gt;</div>
+  <div class="logo">&lt;/AJAY&gt;</div>
   <nav>
     <ul>
       <li><a href="#">Home</a></li>
@@ -155,13 +202,13 @@
 <section class="hero">
   <div class="hero-text">
     <p>Hi There</p>
-    <h1>I'm Aromal Anil</h1>
-    <p>I am a Web Developer</p>
+    <h1>I'm Ajay Rawat</h1>
+    <p>I am a Flutter Developer</p>
     <a href="#" class="btn-primary">Download CV</a>
     <a href="#" class="btn-secondary">Contact me</a>
   </div>
   <div class="hero-image">
-    <img src="https://raw.githubusercontent.com/XyloBit/portfolio/master/icon.png" alt="Web Developer">
+    <img src="https://raw.githubusercontent.com/XyloBit/portfolio/master/computer.jpg" alt="Web Developer">
   </div>
 </section>
 
@@ -175,7 +222,7 @@
 
 <!-- Footer -->
 <footer>
-  &copy; 2024 Aromal Anil. All Rights Reserved.
+  &copy; 2024 Ajay Rawat. All Rights Reserved.
 </footer>
 
 </body>
